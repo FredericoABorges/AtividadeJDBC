@@ -14,7 +14,7 @@ public class db {
 	public static Properties getProperties() throws IOException {
 		
 		Properties propriedades = new Properties();
-		FileInputStream file = new FileInputStream("./propriedades/db.properties");
+		FileInputStream file = new FileInputStream("./properties/db.properties");
 		propriedades.load(file);
 		return propriedades;
 	}
