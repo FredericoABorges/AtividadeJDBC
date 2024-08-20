@@ -25,15 +25,15 @@ public class Aluno {
 	public String getSexo() {
 		return sexo;
 	}
-	public void setSexo(String sexo) {
-		this.sexo = sexo;
-	}
-	public LocalDate getDt_nasc() {
-		return dt_nasc;
-	}
+	
 	public void setDt_nasc(LocalDate localDate) {
 		this.dt_nasc = localDate;
 	}
-	
+	public void setSexo(String nextLine) {
+		
+	}
+	public void setDt_nasc(LocalDate parse) {
+		
+	}
 	
 }
